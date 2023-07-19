@@ -1,0 +1,135 @@
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #cce7e8;
+  line-height: 36px;
+  margin-left: 30px;
+}
+
+header {
+  background-color: #0a4d68;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  padding: 12px 10px 12px 10px;
+  display: block;
+  color: #e6e8e9;
+  font-style: bold;
+  font-size: 26px;
+}
+
+p {
+  font-size: 13px;
+}
+#introducao {
+  color: #292a2b;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfil__foto {
+  max-width: 50%;
+  border-radius: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 6px solid #868686;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.footer {
+  width: 100%;
+  height: 42px;
+  background-color: #0a4d68;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+form {
+  padding: 5px 5px;
+}
+.footer__texto {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 10px 5px;
+  background-color: #0a4d68;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+.header__link {
+  padding: 5px 5px;
+}
+.icone--texto {
+  padding: 10px 13px;
+}
+
+#sobre-1 {
+  border: #0a4d68 dashed 6px;
+  width: 95%;
+  padding: 25px 8px 25px 8px;
+  margin: 10px;
+  border-radius: 25px;
+}
+.breve-historia,
+.vida-pessoal,
+.educacao,
+.premiacoes,
+.conheca-mulheres {
+  border: #0a4d68 dashed 6px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
